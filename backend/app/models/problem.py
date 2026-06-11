@@ -35,7 +35,7 @@ class Problem(db.Model):
             "company":self.company,
             "url":self.url,
             "status":self.status,
-            "time_Complexity":self.time_complexity,
+            "time_complexity": self.time_complexity,
             "space_complexity":self.space_complexity,
             "time_taken_mins":self.time_taken_mins,
             "attempts":self.attempts,
